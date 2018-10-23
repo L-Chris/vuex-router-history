@@ -1,0 +1,22 @@
+{
+  "name": "vuex-router-history",
+  "amdName": "VuexRouterHistory",
+  "version": "0.0.1",
+  "main": "dist/vuex-router-history.js",
+  "module": "dist/vuex-router-history.es.js",
+  "jsnext:main": "dist/vuex-router-history.es.js",
+  "umd:main": "dist/vuex-router-history.umd.js",
+  "repository": "https://github.com/L-Chris/vuex-router-history",
+  "author": "L-Chris <563303226@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && microbundle --external all"
+  },
+  "devDependencies": {
+    "microbundle": "0.4.4",
+    "rimraf": "^2.6.2",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}

@@ -1,0 +1,2 @@
+function t(t,e,r){var u=(r||{}).moduleName||"history",n=a(e.currentRoute);t.registerModule(u,{namespaced:!0,state:{stack:[n],current:n},mutations:{ROUTE_CHANGED:function(t,e){var r=a(e.to,e.from);t[u].stack.push(r),t[u].current=r}}});e.afterEach(function(a,e){currentPath=a.fullPath,t.commit(u+"/ROUTE_CHANGED",{to:a,from:e})})}function a(t,e){var r={name:t.name,path:t.path,hash:t.hash,query:t.query,params:t.params,fullPath:t.fullPath,meta:t.meta};return e&&(r.from=a(e)),Object.freeze(r)}export{t as sync};
+//# sourceMappingURL=vuex-router-history.es.js.map
