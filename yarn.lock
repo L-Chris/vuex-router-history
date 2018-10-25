@@ -328,6 +328,10 @@ cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
     parse-json "^2.2.0"
     require-from-string "^1.1.0"
 
+create-proxy@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/create-proxy/-/create-proxy-0.0.1.tgz#7b7ca5f254b009dc2e102549118db2946b85a50b"
+
 css-color-names@0.0.4:
   version "0.0.4"
   resolved "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
